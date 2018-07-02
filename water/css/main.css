@@ -29,7 +29,6 @@ span{
   height: 47px;
   line-height: 47px;
   text-align: center;
-  background-color: #f9f9f9;
   font-size: 16px;
 }
 
@@ -59,6 +58,7 @@ span{
 }
 
 input{
+  box-sizing: border-box;
   background-color: #E5E5E5;
   font-size: 16px;
   color: #999999;
@@ -145,4 +145,23 @@ button{
 .rule-item{
   color: #666666;
   font-size: 16px;
+}
+
+.finish-container{
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.water-finish{
+  height: 170px;
+  width: 100%;
+  line-height: 170px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.water-finish-tip{
+  font-size: 18px;
+  color: #999;
+  font-weight: bold;
 }
