@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
     <title>stone的朋友们</title>
     <link rel="shortcut icon" href="stone.ico"/>
+    <!-- css -->
+    <link rel="stylesheet" href="css/index.css"/>
     <!-- 加载jquery库 -->
     <script type="application/javascript" src="js/jquery-2.2.3.min.js"></script>
     <script type="application/javascript" src="utils/ConsoleUtil.js"></script>
     <script type="application/javascript" src="js/index.js"></script>
     <script type="application/javascript" src="js/api.js"></script>
 </head>
-<body>
+<input>
     <header>
     </header>
-    <section>
-        <div class="dismiss" name='stone'>点我我会消失哦</div>
-        <select id="select" onchange="selectChange(this.options[this.options.selectedIndex].value)">
-            
-        </select>
+    <input>
+        <div class="slide">点我打开面板</div>
+        <div class="panel">hello world!</div>
+        <button class="text">文字测试</button>
+        <form>
+            <input  id="phone" type="email" placeholder="请输入手机号码"/>
+            <span id="submit">清空</span>
+        </form>
     </section>
     <footer></footer>
 </body>

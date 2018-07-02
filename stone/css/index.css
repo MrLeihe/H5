@@ -1,3 +1,10 @@
-.dismiss{
+.slide, .panel{
+  padding: 10px;
+  text-align: center;
+  background-color: #ff555c;
+  border: 1px solid #e5e5e5;
+}
 
+.panel{
+  padding: 50px;
 }

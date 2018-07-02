@@ -1,0 +1,148 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+span{
+  color: #333;
+}
+
+.theme-text-color{
+  color: #008439;
+}
+
+.water-top-image{
+  width: 100%;
+}
+
+.water-remian-wrapper{
+  width: 100%;
+  height: 47px;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.water-remian{
+  position: absolute;
+  width: 100%;
+  height: 47px;
+  line-height: 47px;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+.water-remain-border{
+  position: absolute;
+  height: 100%;
+  left: 26px;
+  right: 26px;
+  border: 1px solid #008439;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.water-remain-border-cover{
+  position: absolute;
+  height: 32px;
+  left: 20px;
+  right: 20px;
+  border: 1px solid #008439;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.water-get-container{
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+input{
+  background-color: #E5E5E5;
+  font-size: 16px;
+  color: #999999;
+  padding-left: 10px;
+  height: 47px;
+  line-height: 47px;
+  text-align: left;
+  border: none;
+  border-radius: 4px;
+}
+
+.water-get-panel{
+  margin-bottom: 14px;
+}
+
+.water-input-tel{
+  width: 100%;
+}
+
+.water-get-code-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.water-input-code{
+  flex: 1;
+  margin-right: 10px;
+}
+
+button{
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  height: 47px;
+  line-height: 47px;
+  background-color: #008439;
+}
+
+.btn-free-click{
+  min-width: 113px;
+}
+
+.btn-free-get{
+  margin-top: 15px;
+  width: 100%;
+}
+
+.water-rule{
+  padding-left: 26px;
+  padding-right: 26px;
+  margin-top: 30px;
+  margin-bottom: 26px;
+}
+
+.rule-title{
+  width: 100%;
+  height: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px
+}
+
+.ule-title-line{
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #979797;
+}
+
+.rule-title-text{
+  position: absolute;
+  min-width: 100px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rule-item{
+  color: #666666;
+  font-size: 16px;
+}

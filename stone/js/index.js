@@ -3,12 +3,23 @@ $(function(){
     // $(".dismiss").click(function(){
     //     $(this).hide();
     // });
-    $("div.dismiss").click(function(){
-        $(this).text("傻子正树");
+    let isOpen = true;
+    $("div.slide").click(function(){
+        $('.slide').css('background-color', 'green').slideUp(1000).slideDown(1000);
+        if(isOpen){
+            $('.panel').slideUp("slow");
+            isOpen = false;
+        }else{
+            $('.panel').slideDown("slow");
+            isOpen = true;
+        }
     });
 
-    $("div.dismiss").mouseenter(function(){
-        alert('傻子正树');
+    $('.text').click(function(){
+        alert($('.text').text());
+    })
+    $('#submit').click(() => {
+        $('#phone').css({"background": '#eee'});
     })
 
     let arr = ['请选择主类别', '1', '2'];
